@@ -22,4 +22,29 @@ newFunction2("tayson", "33", "co");
 let hello = "hello";
 let world = "world"; 
 let epicPhrase =  `${hello} ${world}`; //alt + 96 para ``
-console.log(epicPhrase); 
+console.log(epicPhrase);
+
+let lorem2 = `otra frase`;
+console.log(lorem2); 
+
+let person = {
+    'name': 'moiso',
+    'age': 30,
+    'country': 'co'
+}
+
+console.log(person.name, person.age); 
+
+let {name, age} = person; 
+console.log(name,age); 
+
+//operador 
+
+let team1 = ['moiso','tayson','chechito']; //let se usa para ser valido solo en el bloque de código
+let team2 = ['aleja', 'monica', 'daniela']; //usamos var para variables de forma global 
+
+let education = ['david', ...team1, ...team2] //crear un nuevo elemento con todos los arreglos 
+
+console.log(education); 
+
+//se usa const para asignar variables con valores fijas que no cambian su valor
