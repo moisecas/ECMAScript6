@@ -7,8 +7,9 @@ if(numbers.includes(3)){
     console.log("no esta el #") 
 }
 
+
 let base = 4; 
 let exponent = 3
-let result = base ** exponent; 
+let result = base ** exponent; //** elevar a la potencia
 
 console.log(result) 

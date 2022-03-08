@@ -42,6 +42,6 @@ const helloPromise = () => { //generar la promesa, creo una const, asignamos una
 
     });
 }
-helloPromise()
-  .then(response => console.log(response))
-  .catch(error => console.log(error));
+helloPromise() //debemos invocarla
+  .then(response => console.log(response)) //con then obtenemos una rta y la vamos a ejecutar con el console
+  .catch(error => console.log(error)); //con catch para en caso de que no cumpla 
